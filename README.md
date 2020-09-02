@@ -1,2 +1,2 @@
 # number-comma-separator
-Created with CodeSandbox
+ Number comma separator 
