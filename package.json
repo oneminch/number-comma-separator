@@ -1,0 +1,22 @@
+{
+  "name": "comma-separator",
+  "version": "1.0.0",
+  "description": "A function that takes in a number and adds the appropriate number of commas",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "emmet": "2.1.1",
+    "mvp.css": "1.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "numbers",
+    "algorithm"
+  ]
+}
