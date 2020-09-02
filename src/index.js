@@ -2,10 +2,10 @@ const numSeparator = num => {
   // Input validation
   if (isNaN(num)) return "Please enter a number!";
 
-  if (num < 1000) return numStr;
-  
   let decimal = "", numStr = num.toString();
 
+  if (num < 1000) return numStr;
+  
   // Check if number is a floating point
   if (numStr.indexOf(".") > -1) {
     decimal = `.${numStr.split(".")[1]}`;
