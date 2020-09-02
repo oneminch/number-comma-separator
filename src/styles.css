@@ -9,3 +9,7 @@ input {
   margin: 0 auto;
   text-align: center;
 }
+
+label {
+   margin: 0 auto;
+}
